@@ -8,7 +8,7 @@ The dataset used in this analysis is the “Supermarket Sale” dataset. The dat
 
 During the data cleaning process, missing values in the “Quantity” column were replaced using the average value of the column, which was rounded to 11. For missing values in text columns such as “Customer_type” and “Product_category”, mode was used to replace the blank cells. In addition, duplicate rows were identified and removed to improve data accuracy and data quality.
 
-3. Descriptive Statistics and Visualisation
+3. Descriptive Statistics 
 
 Several visualisations were created to better understand the dataset, including:
 - Total Sales by Product Category
@@ -17,19 +17,17 @@ Several visualisations were created to better understand the dataset, including:
 
 Based on descriptive statistics, the average sales amount was approximately 124.19 USD. The highest sales value recorded was 427.14 USD, while the minimum sales value was 2.18 USD.
 
-4. Data Visualisation and Analysis
-
-4.1 Sales by Product Category
+3.1 Sales by Product Category
 <img width="614" height="550" alt="chart 1" src="https://github.com/user-attachments/assets/ec8113e1-3737-49bb-af3e-530c181807bb" />
 
 Insight 1: The Fruits category generated the highest total sales among all product categories. This suggests that fruit products are the most demanded items and contribute significantly to the supermarket’s overall revenue.
 
-4.2 Sales Distribution by City
+3.2 Sales Distribution by City
 <img width="606" height="506" alt="chart 3" src="https://github.com/user-attachments/assets/838b6b09-9d86-4683-ab72-40cccd0f7176" />
 
 Sales performance differed across cities, indicating variations in customer purchasing activity. Some cities generated higher sales revenue than others, suggesting differences in customer demand and shopping behaviour across locations.
 
-4.3 Customer Type Distribution
+3.3 Customer Type Distribution
 <img width="666" height="508" alt="chart 2" src="https://github.com/user-attachments/assets/8f90852e-69da-4347-9afc-4ddacce98143" />
 
 Insight 2: Member customers made more purchases compared to Normal customers. This indicates that loyalty membership programs may encourage customers to shop more frequently and improve customer retention.
