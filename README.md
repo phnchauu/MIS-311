@@ -21,17 +21,17 @@ Based on descriptive statistics, the average sales amount was approximately 124.
 
 4.1 Sales by Product Category
 ## Visualisation
-![Chart](chart1.png)
+![Chart](chart 1.png)
 Insight 1: The Fruits category generated the highest total sales among all product categories. This suggests that fruit products are the most demanded items and contribute significantly to the supermarket’s overall revenue.
 
 4.2 Sales Distribution by City
 ## Visualisation
-![Chart](chart3.png)
+![Chart](chart 3.png)
 Sales performance differed across cities, indicating variations in customer purchasing activity. Some cities generated higher sales revenue than others, suggesting differences in customer demand and shopping behaviour across locations.
 
 4.3 Customer Type Distribution
 ## Visualisation
-![Chart](chart2.png)
+![Chart](chart 2.png)
 Insight 2: Member customers made more purchases compared to Normal customers. This indicates that loyalty membership programs may encourage customers to shop more frequently and improve customer retention.
 
 Author
