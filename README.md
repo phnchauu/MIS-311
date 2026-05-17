@@ -12,9 +12,9 @@ The dataset has 253 rows (transactions) and 8 columns: sale_id, branch, city, cu
 
 **Missing Values**:
 
-customer_type: 3 missing values
-product_category: 6 missing values
-quantity: 3 missing values
+- customer_type: 3 missing values
+- product_category: 6 missing values
+- quantity: 3 missing values
 
 *Handling Missing Values*:
 I filled the missing values in categorical columns (customer_type and product_category) using the mode (most frequent value). For the numerical column quantity, I used the median. Since the number of missing values is small, this method keeps the data reliable.
@@ -29,10 +29,10 @@ I calculated basic statistical measures for the numerical columns:
 
 *Categorical Summary*:
 
-New York has the highest number of transactions.
-Branch A has more sales than Branch B.
-Member customers are slightly more than Normal customers.
-Fruits is the most popular product category.
+- New York has the highest number of transactions.
+- Branch A has more sales than Branch B.
+- Member customers are slightly more than Normal customers.
+- Fruits are the most popular product category.
 
 ### 3.1 Sales by Product Category
 
