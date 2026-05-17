@@ -1,6 +1,6 @@
 Supermarket Sales Data Analysis Report
 
-![Uploading image.png…]()
+<img width="1384" height="900" alt="image" src="https://github.com/user-attachments/assets/ecf52dff-3212-459b-bb27-4b4211a7d341" />
 
 1. Data Overview
 
