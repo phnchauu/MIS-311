@@ -27,9 +27,7 @@ I calculated basic statistical measures for the numerical columns:
 
 <img width="574" height="397" alt="table" src="https://github.com/user-attachments/assets/59424877-fde3-4de0-9996-d3d043eab0cc" />
 
-On average, customers buy 10.62 items per transaction, with an average spending of $124.19. The standard deviation of `total_price` is very high (102.98), indicating a large variation in spending - some transactions are as low as $2.18, while others reach up to $427.14.  
-
-Additionally, the distribution of `quantity` is nearly symmetrical (Skewness close to 0), while `total_price` is slightly right-skewed (positive skewness).
+On average, customers buy about 10.62 items per transaction and spend $124.19. The median `quantity` is 11, meaning most customers buy around this amount. However, the standard deviation of `total_price` is very high (102.98). This shows a big difference in spending between customers - some transactions are as low as $2.18, while others reach up to $427.14. This suggests the supermarket sells both cheap daily items and more expensive products.
 
 *Categorical Summary*:
 
