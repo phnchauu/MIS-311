@@ -27,6 +27,10 @@ I calculated basic statistical measures for the numerical columns:
 
 <img width="574" height="397" alt="table" src="https://github.com/user-attachments/assets/59424877-fde3-4de0-9996-d3d043eab0cc" />
 
+On average, customers buy 10.62 items per transaction, with an average spending of $124.19. The standard deviation of `total_price` is very high (102.98), indicating a large variation in spending — some transactions are as low as $2.18, while others reach up to $427.14.  
+
+Additionally, the distribution of `quantity` is nearly symmetrical (Skewness close to 0), while `total_price` is slightly right-skewed (positive skewness).
+
 *Categorical Summary*:
 
 - New York has the highest number of transactions.
