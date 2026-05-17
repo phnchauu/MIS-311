@@ -4,40 +4,47 @@
 
 ## 1. Data Overview
 
-The dataset used in this analysis is the “Supermarket Sale” dataset. The dataset contains information about supermarket transactions, including customer type, product category, quantity sold, and total sales amount. The dataset contains approximately 251 rows and 8 columns. The purpose of this analysis is to identify sales patterns and customer purchasing behaviour using descriptive statistics and visualisation techniques.
+The dataset is a supermarket sales record containing transaction details from a fictional retail chain. It includes information about sales across different branches (A and B), cities (New York, Los Angeles, Chicago), customer types, products, and financial metrics. The data likely comes from internal supermarket transaction logs and is suitable for retail performance analysis, customer behavior study, and inventory insights.
+
+The dataset has 253 rows (transactions) and 8 columns: sale_id, branch, city, customer_type, product_name, product_category, quantity, and total_price. Most columns are categorical (e.g., branch, city, product_category), while quantity and total_price are numerical.
 
 ## 2. Data Cleaning
 
-During the data cleaning process, missing values in the “Quantity” column were replaced using the mean value of the column (because the column contains numerical data), which was rounded to 11. For missing values in text columns such as “Customer_type” and “Product_category,” were replaced using mode to preserve the most frequent category. In addition, duplicate rows were identified and removed to improve data accuracy and consistency.
+**Missing Values**:
+
+customer_type: 3 missing values
+product_category: 6 missing values
+quantity: 3 missing values
+
+*Handling Missing Values*:
+I filled the missing values in categorical columns (customer_type and product_category) using the mode (most frequent value). For the numerical column quantity, I used the median. Since the number of missing values is small, this method keeps the data reliable.
+
+**Duplicate Rows**:
+There were 3 duplicate rows in the dataset. I removed these duplicates to avoid repeated data. After cleaning, the dataset now has 250 rows.
 
 ## 3. Descriptive Statistics 
+I calculated basic statistical measures for the numerical columns:
 
-Several visualisations were created to better understand the dataset, including:
-- Total Sales by Product Category
-- Sales by City
-- Customer Type Distribution
+<img width="574" height="397" alt="table" src="https://github.com/user-attachments/assets/59424877-fde3-4de0-9996-d3d043eab0cc" />
 
-Based on descriptive statistics, the average sales amount was approximately 124.19 USD. The highest sales value recorded was 427.14 USD, while the minimum was 2.18 USD. The Fruits category generated the highest overall sales among all product categories.
+*Categorical Summary*:
+
+New York has the highest number of transactions.
+Branch A has more sales than Branch B.
+Member customers are slightly more than Normal customers.
+Fruits is the most popular product category.
 
 ### 3.1 Sales by Product Category
 
-<img width="614" height="550" alt="chart 1" src="https://github.com/user-attachments/assets/ec8113e1-3737-49bb-af3e-530c181807bb" />
+<img width="620" height="577" alt="1" src="https://github.com/user-attachments/assets/e8cdb50a-4288-4761-ad14-2316a79745f1" />
 
-**Insight 1**: The Fruits category generated the highest total sales among all product categories. This shows that fruit products are highly popular and contribute a large amount to the supermarket’s revenue. The supermarket can focus more on this category to increase sales and profits. 
+**Insight 1**: The average quantity purchased per transaction is about 10.61 units, with a median of 11. However, the total_price has a very high variation, ranging from $2.18 to $427.14. This shows that while customers buy a similar number of items, the value of each transaction differs greatly. Therefore, the supermarket should focus on upselling and product bundling strategies to increase the average order value.
 
-### 3.2 Sales Distribution by City
+### 3.2 Customer Type Distribution
 
-<img width="606" height="506" alt="chart 3" src="https://github.com/user-attachments/assets/838b6b09-9d86-4683-ab72-40cccd0f7176" />
+<img width="615" height="500" alt="2" src="https://github.com/user-attachments/assets/40e2b87a-39c3-40f8-b811-0b689a47b129" />
 
-Sales performance was different across cities, which shows that customer purchasing behaviour and demand may vary depending on location.
-
-### 3.3 Customer Type Distribution
-
-<img width="666" height="508" alt="chart 2" src="https://github.com/user-attachments/assets/8f90852e-69da-4347-9afc-4ddacce98143" />
-
-**Insight 2**: Member customers made more purchases compared to Normal customers. This suggests that membership programs may help increase customer loyalty and encourage customers to shop more frequently.
-
-In conclusion, the analysis helped identify important sales patterns and customer behaviour. Fruits were the best-selling product category, while member customers contributed more purchases than Normal customers. These findings can help the supermarket improve sales strategies and customer service in the future.
+**Insight 2**: Branch A in New York dominates the number of transactions. Member customers tend to buy more than Normal customers, and Fruits is the best-selling category. This indicates that the loyalty program is working well. The supermarket should continue to promote the membership program and focus marketing efforts on popular categories like Fruits to further increase sales and expand successful strategies to other branches.
 
 *Author
 Phan Ngọc Châu*
