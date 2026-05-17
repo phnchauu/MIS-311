@@ -32,5 +32,7 @@ Sales performance was different across cities, which shows that customer purchas
 
 Insight 2: Member customers made more purchases compared to Normal customers. This suggests that membership programs may help increase customer loyalty and encourage customers to shop more frequently.
 
+In conclusion, the analysis helped identify important sales patterns and customer behaviour. Fruits were the best-selling product category, while member customers contributed more purchases than normal customers. These findings can help the supermarket improve sales strategies and customer service in the future.
+
 Author
 Phan Ngọc Châu
