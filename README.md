@@ -23,7 +23,7 @@ Based on descriptive statistics, the average sales amount was approximately 124.
 
 <img width="614" height="550" alt="chart 1" src="https://github.com/user-attachments/assets/ec8113e1-3737-49bb-af3e-530c181807bb" />
 
-**Insight 1**: The Fruits category generated the highest total sales among all product categories. This shows that fruit products are highly popular and contribute a large amount to the supermarket’s revenue. The supermarket can focus more on this category to increase sales and profits. The supermarket can focus more on this category to increase sales and profits.
+**Insight 1**: The Fruits category generated the highest total sales among all product categories. This shows that fruit products are highly popular and contribute a large amount to the supermarket’s revenue. The supermarket can focus more on this category to increase sales and profits. 
 
 ### 3.2 Sales Distribution by City
 
