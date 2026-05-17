@@ -8,7 +8,7 @@ The dataset used in this analysis is the “Supermarket Sale” dataset. The dat
 
 ## 2. Data Cleaning
 
-During the data cleaning process, missing values in the “Quantity” column were replaced using the average value of the column (because the column contains numerical data), which was rounded to 11. For missing values in text columns such as “Customer_type” and “Product_category,” were replaced using mode to preserve the most frequent category. In addition, duplicate rows were identified and removed to improve data accuracy and consistency.
+During the data cleaning process, missing values in the “Quantity” column were replaced using the mean value of the column (because the column contains numerical data), which was rounded to 11. For missing values in text columns such as “Customer_type” and “Product_category,” were replaced using mode to preserve the most frequent category. In addition, duplicate rows were identified and removed to improve data accuracy and consistency.
 
 ## 3. Descriptive Statistics 
 
