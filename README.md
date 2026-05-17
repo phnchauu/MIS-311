@@ -17,7 +17,7 @@ The dataset has 253 rows (transactions) and 8 columns: `sale_id`, `branch`, `cit
 - `quantity`: 3 missing values
 
 *Handling Missing Values*:
-I filled the missing values in categorical columns (`customer_type` and `product_category`) using the mode (most frequent value). For the numerical column quantity, I used the median. Since the number of missing values is small, this method keeps the data reliable.
+I filled the missing values in categorical columns (`customer_type` and `product_category`) using the mode (most frequent value, "Member" and "Fruits"). For the numerical column quantity, I used the median (11). Since the number of missing values is small, this method keeps the data reliable.
 
 **Duplicate Rows**:
 There were 3 duplicate rows in the dataset. I removed these duplicates to avoid repeated data. After cleaning, the dataset now has 250 rows.
