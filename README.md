@@ -1,5 +1,7 @@
 Supermarket Sales Data Analysis Report
 
+![Uploading image.png…]()
+
 1. Data Overview
 
 The dataset used in this analysis is the “Supermarket Sale” dataset. The dataset contains information about supermarket transactions, including customer type, product category, quantity sold, and total sales amount. The dataset contains approximately 251 rows and 8 columns. The purpose of this analysis is to identify sales patterns and customer purchasing behaviour using descriptive statistics and visualisation techniques.
