@@ -6,7 +6,7 @@
 
 The dataset is a supermarket sales record containing transaction details from a fictional retail chain. It includes information about sales across different branches (A and B), cities (New York, Los Angeles, Chicago), customer types, products, and financial metrics. The data likely comes from internal supermarket transaction logs and is suitable for retail performance analysis, customer behavior study, and inventory insights.
 
-The dataset has 253 rows (transactions) and 8 columns: sale_id, branch, city, customer_type, product_name, product_category, quantity, and total_price. Most columns are categorical (e.g., branch, city, product_category), while quantity and total_price are numerical.
+The dataset has 253 rows (transactions) and 8 columns: sale_id, branch, city, customer_type, product_name, product_category, quantity, and total_price. Most columns are categorical (e.g., 'branch', 'city', 'product_category'), while quantity and total_price are numerical.
 
 ## 2. Data Cleaning
 
