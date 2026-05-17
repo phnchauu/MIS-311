@@ -42,13 +42,13 @@ Additionally, the distribution of `quantity` is nearly symmetrical (Skewness clo
 
 <img width="620" height="577" alt="1" src="https://github.com/user-attachments/assets/e8cdb50a-4288-4761-ad14-2316a79745f1" />
 
-**Insight 1**: The average quantity purchased per transaction is about 10.61 units, with a median of 11. However, the `total_price` has a very high variation, ranging from $2.18 to $427.14. This shows that while customers buy a similar number of items, the value of each transaction differs greatly. Therefore, the supermarket should focus on upselling and product bundling strategies to increase the average order value.
+**Insight 1**: Fruits is the best-performing product category, generating the highest revenue of $8,024.90 out of the total revenue of $31,046.28. This is noticeably higher than other categories such as Beverages ($6,463.17) and Stationery ($6,255.25). This shows that Fruits is very popular among customers. Therefore, the supermarket should focus on stocking more Fruits and running promotions on this category to increase overall sales.
 
 ### 3.2 Customer Type Distribution
 
 <img width="615" height="500" alt="2" src="https://github.com/user-attachments/assets/40e2b87a-39c3-40f8-b811-0b689a47b129" />
 
-**Insight 2**: Branch A in New York dominates the number of transactions. Member customers tend to buy more than Normal customers, and Fruits is the best-selling category. This indicates that the loyalty program is working well. The supermarket should continue to promote the membership program and focus marketing efforts on popular categories like Fruits to further increase sales and expand successful strategies to other branches.
+**Insight 2**: Member customers spend more on average ($133.88 per transaction) compared to Normal customers ($112.99 per transaction). This difference indicates that the membership program successfully encourages customers to buy more. The supermarket should continue promoting the Member program and offer attractive benefits to convert more Normal customers into Members, which will help increase the average transaction value.
 
 *Author
 Phan Ngọc Châu*
